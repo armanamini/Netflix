@@ -11,8 +11,16 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 5px;
+  height: 5px;
+
   background: transparent; /* make scrollbar transparent */
+}
+::-webkit-scrollbar-thumb {
+  height: 5px;
+
+  background: var(--gray20);
+  border-radius: 10px;
 }
 
 a {
